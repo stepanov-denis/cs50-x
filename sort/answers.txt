@@ -1,0 +1,76 @@
+sort1 uses: bubble sort
+
+How do you know?:
+this program runs from Ω(n) to O(n*n)
+
+time ./sort1 sorted50000.txt:
+real    0m1.857s
+user    0m0.031s
+sys     0m0.208s
+
+time ./sort1 reversed50000.txt:
+real    0m6.418s
+user    0m5.023s
+sys     0m0.246s
+
+time ./sort1 random50000.txt:
+real    0m8.723s
+user    0m7.018s
+sys     0m0.249s
+
+time ./sort1 random5000.txt:
+real    0m0.083s
+user    0m0.061s
+sys     0m0.016s
+
+
+sort2 uses: merge sort
+
+How do you know?:
+this program runf from Ω(nlogn) to O(nlogn)
+
+time ./sort2 sorted50000.txt:
+real    0m1.639s
+user    0m0.061s
+sys     0m0.179s
+
+time ./sort2 reversed50000.txt:
+real    0m1.452s
+user    0m0.028s
+sys     0m0.206s
+
+time ./sort2 random50000.txt:
+real    0m1.464s
+user    0m0.057s
+sys     0m0.177s
+
+time ./sort2 random5000.txt
+real    0m0.027s
+user    0m0.005s
+sys     0m0.021s
+
+
+sort3 uses: selection sort
+
+How do you know?:
+this program runs from Ω(n*n) to O(n*n)
+
+time ./sort3 sorted50000.txt:
+real    0m3.948s
+user    0m2.651s
+sys     0m0.219s
+
+time ./sort3 reversed50000.txt:
+real    0m4.190s
+user    0m2.685s
+sys     0m0.205s
+
+time ./sort3 random50000.txt:
+real    0m4.120s
+user    0m2.646s
+sys     0m0.213s
+
+time ./sort3 random5000.txt
+real    0m0.056s
+user    0m0.030s
+sys     0m0.021s
