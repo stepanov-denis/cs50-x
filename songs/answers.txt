@@ -1,0 +1,19 @@
+Response in answers.txt:
+
+To characterize the audio aura from a listener's top 100 songs of 2018, we would analyze the tracks' energy, valence, and danceability. Assuming that the relevant metadata is available in songs.db, the following approach could be used:
+
+1. Energy describes how intense and active the music is. High values indicate powerful sounds with clearly defined dynamics and rhythm (for example, rock, dance music).
+
+2. Valence reflects the musical positivity. High valence is usually associated with cheerful, joyful tracks, whereas low valence is linked to sadder, more melancholic compositions.
+
+3. Danceability indicates how suitable a track is for dancing, how clear and consistent its rhythm is.
+
+By analyzing these three parameters, we could calculate the average and characterize the audio aura. For example, if the average energy and valence of the tracks are high, the aura could be described as "energetic and joyful." If the average danceability is also high, it can be labeled as "danceable." With low averages for these metrics, the aura would be "calm and melancholic."
+
+Hypothesis on non-representativeness:
+
+While the average values of energy, valence, and danceability may provide some insight into the overall mood of the playlist, this approach might not fully reflect a listener's musical preferences for several reasons:
+
+- Musical Diversity: Listeners often prefer different genres and styles at different times or depending on the situation.
+- Context of Perception: People might listen to more energetic music during workouts and work which could affect the overall rating but not necessarily reflect their overall preferences.
+- Mood Variability: Changes in a listener's life can temporarily affect music choices, but this does not necessarily reflect their permanent preferences.
